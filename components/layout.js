@@ -31,6 +31,8 @@ export default function Layout({ children, home }) {
             <Image
               src="/images/profile.jpg"
               className={`${styles.headerHomeImage} ${utilStyles.borderCircle}`}
+              height={144}
+              width={144}
               alt={name}
             />
             <h1 className={utilStyles.heading2Xl}>{name}</h1>
